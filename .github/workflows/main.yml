@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  call-workflow-passing-data:
+  call_public_vsce_build_action:
     uses: mpearon/public-workflows/.github/workflows/vsce-extension-BuildPublish.yml@main
     with:
       github_user: ${{ vars.GH_USER }}
