@@ -3,7 +3,7 @@
 	"displayName": "Show Trigger Words",
 	"description": "Emphasize trigger words in files",
 	"preview": false,
-	"version": "0.2.24",
+	"version": "1.0.0",
 	"publisher": "MPearon",
 	"keywords": [
 		"mpearon",
@@ -14,7 +14,7 @@
 	],
 	"author": {
 		"name": "Matthew Pearon",
-		"url": "https://CL3VER.life/mpearon"
+		"url": "https://mpearon.com"
 	},
 	"homepage": "https://github.com/mpearon/PUB-vsce.show-TriggerWords/blob/master/README.md",
 	"icon": "resources/altIcon-256.png",
