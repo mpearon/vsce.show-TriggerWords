@@ -3,7 +3,7 @@
 	"displayName": "Show Trigger Words",
 	"description": "Emphasize trigger words in files",
 	"preview": false,
-	"version": "0.0.25",
+	"version": "0.0.26",
 	"publisher": "MPearon",
 	"keywords": [
 		"mpearon",
