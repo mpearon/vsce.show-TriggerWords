@@ -1,0 +1,16 @@
+name: Call Public VSCE Build Action
+
+on:
+  workflow_dispatch:
+  push:
+    branches: 
+      - main
+
+jobs:
+  call-workflow-passing-data:
+    uses: mpearon/public-workflows/.github/workflows/vsce-extension-BuildPublish.yml@main
+    with:
+      github_user: ${{ vars.GH_USER }}
+      github_email: ${{ vars.GH_EMAIL }}
+    secrets:
+      VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
